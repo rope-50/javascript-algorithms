@@ -7,7 +7,7 @@
  * We tally the magazine's character counts, then "spend" one per character of
  * the note; if any character is missing or runs out, the note is impossible.
  *
- * Time: O(note + magazine) — Space: O(distinct magazine characters)
+ * Time: O(note + magazine) - Space: O(distinct magazine characters)
  *
  * @param {string} note - The text we want to build.
  * @param {string} magazine - The pool of available characters.

@@ -8,7 +8,7 @@
  * Only divisors up to `√n` need checking: if `n = a · b` then at least one of
  * `a`, `b` is `≤ √n`.
  *
- * Time: O(√n) — Space: O(1)
+ * Time: O(√n) - Space: O(1)
  *
  * @param {number} n
  * @returns {boolean}
@@ -28,7 +28,7 @@ export function isPrime(n) {
  * Starting from each prime `p`, mark its multiples (from `p²` upward) as
  * composite; whatever stays unmarked is prime.
  *
- * Time: O(n log log n) — Space: O(n)
+ * Time: O(n log log n) - Space: O(n)
  *
  * @param {number} n
  * @returns {number[]}

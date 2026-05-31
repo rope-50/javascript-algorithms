@@ -6,7 +6,7 @@
  * Unicode code point, so characters outside the Basic Multilingual Plane (e.g.
  * many emoji) survive intact.
  *
- * Time: O(n) — Space: O(n)
+ * Time: O(n) - Space: O(n)
  *
  * @param {string} str
  * @returns {string} The reversed string.

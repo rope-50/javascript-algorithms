@@ -11,7 +11,7 @@ import { MinHeap, MaxHeap } from './heap.js';
  * most one. The median is then either the top of the larger heap or, when the
  * halves are equal, the average of both tops.
  *
- * Per element — Time: O(log n) — Space: O(n)
+ * Per element - Time: O(log n) - Space: O(n)
  *
  * @param {number[]} stream - Numbers arriving one at a time.
  * @returns {number[]} The median computed after each element is added.

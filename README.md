@@ -1,6 +1,6 @@
 # 🧮 JavaScript Algorithms
 
-> Classic data structures and algorithms, implemented in clean, modern JavaScript — each one documented, complexity-annotated, and covered by tests.
+> Classic data structures and algorithms, implemented in clean, modern JavaScript - each one documented, complexity-annotated, and covered by tests.
 
 [![CI](https://github.com/rope-50/javascript-algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/rope-50/javascript-algorithms/actions/workflows/ci.yml)
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-43853d?logo=node.js&logoColor=white)](https://nodejs.org)
@@ -95,7 +95,7 @@ tests/    one Vitest spec per module (mirrors src/)
 
 ## 🤝 Contributing
 
-Contributions are very welcome — whether it's a brand-new algorithm, a clearer
+Contributions are very welcome - whether it's a brand-new algorithm, a clearer
 explanation, an extra test, or a bug fix. New to open source? This is a friendly
 place to make your first PR. 💚
 

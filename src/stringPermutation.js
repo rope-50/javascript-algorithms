@@ -1,12 +1,12 @@
 /**
  * String Permutation check.
  *
- * Returns `true` when `a` and `b` are permutations of each other — i.e. they
+ * Returns `true` when `a` and `b` are permutations of each other - i.e. they
  * contain exactly the same characters with the same frequencies, possibly in a
  * different order. Strings of different lengths can never be permutations, so
  * that is checked first as a fast exit.
  *
- * Time: O(n) — Space: O(distinct characters)
+ * Time: O(n) - Space: O(distinct characters)
  *
  * @param {string} a
  * @param {string} b

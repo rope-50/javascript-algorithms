@@ -9,7 +9,7 @@
  * then scan buckets from the top, accumulating papers until we find the largest
  * `h` whose running total reaches `h`.
  *
- * Time: O(n) — Space: O(n)
+ * Time: O(n) - Space: O(n)
  *
  * @param {number[]} citations - Citation count for each paper.
  * @returns {number} The h-index.

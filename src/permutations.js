@@ -5,7 +5,7 @@
  * the first item in turn, then recursively permute the remaining elements. A
  * list of `n` distinct elements has `n!` permutations.
  *
- * Time: O(n · n!) — Space: O(n · n!) (size of the output)
+ * Time: O(n · n!) - Space: O(n · n!) (size of the output)
  *
  * @template T
  * @param {T[]} items

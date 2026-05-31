@@ -65,7 +65,7 @@ export class BinarySearchTree {
     } else if (value > node.value) {
       node.right = this.#deleteAt(node.right, value);
     } else {
-      // Found the node to remove — handle the three classic cases.
+      // Found the node to remove - handle the three classic cases.
       if (node.left === null) return node.right; // 0 or 1 child (right)
       if (node.right === null) return node.left; // 1 child (left)
 

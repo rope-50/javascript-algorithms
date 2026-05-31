@@ -6,7 +6,7 @@
  * that returns a negative number when `a` should sit *above* `b` (closer to the
  * root). Use {@link MinHeap} / {@link MaxHeap} for the common numeric cases.
  *
- * push / pop: O(log n) — peek: O(1)
+ * push / pop: O(log n) - peek: O(1)
  */
 export class Heap {
   /** @param {(a: any, b: any) => number} compare */

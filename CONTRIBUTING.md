@@ -35,7 +35,7 @@ Requires **Node.js 18+**. If you use a version manager (nvm, fnm, …), there's 
 ### Style
 
 - Modern JavaScript: `const`/`let`, arrow functions, `Map`/`Set` where they fit.
-- Prefer clarity over cleverness — this is a learning resource.
+- Prefer clarity over cleverness - this is a learning resource.
 - Pure functions when possible: **don't mutate the caller's input**.
 - Comments explain the *why*, not the obvious *what*.
 
@@ -46,4 +46,4 @@ npm test
 ```
 
 Make sure the whole suite is green. Then open a pull request with a short
-description of what you added or changed. That's it — thank you! 🙌
+description of what you added or changed. That's it - thank you! 🙌

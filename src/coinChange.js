@@ -1,5 +1,5 @@
 /**
- * Coin Change — counting the number of ways to make an amount.
+ * Coin Change - counting the number of ways to make an amount.
  *
  * Given a target `amount` and a set of `coins` (each available in unlimited
  * quantity), count how many distinct combinations of coins sum to the amount.
@@ -11,7 +11,7 @@
  * recurrence plainly: the number of ways either uses at least one `coins[0]`
  * (stay on the same coin, smaller amount) or ignores `coins[0]` entirely.
  *
- * Time: exponential — Space: O(amount) recursion depth
+ * Time: exponential - Space: O(amount) recursion depth
  *
  * @param {number} amount
  * @param {number[]} coins
@@ -27,13 +27,13 @@ export function countChangeRecursive(amount, coins) {
 }
 
 /**
- * Bottom-up dynamic programming — the practical solution.
+ * Bottom-up dynamic programming - the practical solution.
  *
  * `ways[a]` holds the number of combinations summing to `a`. Iterating one coin
  * at a time (outer loop) before amounts (inner loop) guarantees each
  * combination is counted once regardless of order.
  *
- * Time: O(coins × amount) — Space: O(amount)
+ * Time: O(coins × amount) - Space: O(amount)
  *
  * @param {number} amount
  * @param {number[]} coins

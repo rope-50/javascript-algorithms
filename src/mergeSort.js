@@ -3,14 +3,14 @@
  *
  * Merge sort is a stable, O(n log n) divide-and-conquer sort: split the array
  * in half, sort each half, then merge. While merging we can also count
- * "inversions" — pairs `(i, j)` with `i < j` but `a[i] > a[j]`, a measure of how
- * unsorted the array is — at no extra asymptotic cost.
+ * "inversions" - pairs `(i, j)` with `i < j` but `a[i] > a[j]`, a measure of how
+ * unsorted the array is - at no extra asymptotic cost.
  */
 
 /**
  * Returns a new ascending-sorted copy of `items`. Does not mutate the input.
  *
- * Time: O(n log n) — Space: O(n)
+ * Time: O(n log n) - Space: O(n)
  *
  * @param {number[]} items
  * @returns {number[]}
@@ -22,7 +22,7 @@ export function mergeSort(items) {
 /**
  * Counts the number of inversions in `items`.
  *
- * Time: O(n log n) — Space: O(n)
+ * Time: O(n log n) - Space: O(n)
  *
  * @param {number[]} items
  * @returns {number}

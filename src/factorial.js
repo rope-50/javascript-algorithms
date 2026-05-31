@@ -4,7 +4,7 @@
  * The factorial of a non-negative integer `n` is the product of all positive
  * integers up to `n`, with `0!` defined as `1`.
  *
- * Time: O(n) — Space: O(n) (recursion stack)
+ * Time: O(n) - Space: O(n) (recursion stack)
  *
  * @param {number} n - A non-negative integer.
  * @returns {number} The value of `n!`.

@@ -10,7 +10,7 @@
  * comparison `knows[a][b]` rules out exactly one person as a celebrity, so the
  * candidate is found in O(n) instead of checking all O(n²) pairs.
  *
- * Time: O(n) — Space: O(1)
+ * Time: O(n) - Space: O(1)
  *
  * @param {Array<Array<number|boolean>>} knows - Square "who-knows-whom" matrix.
  * @returns {number} The celebrity's index, or `-1` if there is none.
@@ -18,7 +18,7 @@
 export function findCelebrity(knows) {
   const n = knows.length;
 
-  // Phase 1 — find the single possible candidate.
+  // Phase 1 - find the single possible candidate.
   // If `candidate` knows `other`, then `candidate` cannot be the celebrity, so
   // `other` becomes the new candidate. Anyone skipped is ruled out too.
   let candidate = 0;
@@ -28,7 +28,7 @@ export function findCelebrity(knows) {
     }
   }
 
-  // Phase 2 — verify: the candidate must know no one and be known by everyone.
+  // Phase 2 - verify: the candidate must know no one and be known by everyone.
   for (let other = 0; other < n; other++) {
     if (other === candidate) continue;
     const candidateKnowsOther = Boolean(knows[candidate][other]);
