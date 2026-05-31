@@ -19,7 +19,7 @@ npm install
 npm test
 ```
 
-Requires **Node.js 18+**. If you use a version manager (nvm, fnm, …), there's an
+Requires **Node.js 20+**. If you use a version manager (nvm, fnm, …), there's an
 `.nvmrc` you can `nvm use` / `fnm use`.
 
 ## Adding a new algorithm

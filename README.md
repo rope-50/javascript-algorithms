@@ -3,7 +3,7 @@
 > Classic data structures and algorithms, implemented in clean, modern JavaScript - each one documented, complexity-annotated, and covered by tests.
 
 [![CI](https://github.com/rope-50/javascript-algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/rope-50/javascript-algorithms/actions/workflows/ci.yml)
-[![Node](https://img.shields.io/badge/node-%E2%89%A518-43853d?logo=node.js&logoColor=white)](https://nodejs.org)
+[![Node](https://img.shields.io/badge/node-%E2%89%A520-43853d?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Tested with Vitest](https://img.shields.io/badge/tested%20with-vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -28,7 +28,7 @@ npm run test:watch  # re-run on file changes
 npm run coverage    # run with a coverage report
 ```
 
-> Requires **Node.js 18+**.
+> Requires **Node.js 20+**.
 
 ## 📦 Usage
 
