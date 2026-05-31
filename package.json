@@ -1,0 +1,27 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "Classic data structures and algorithms implemented in modern JavaScript, each with tests.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "computer-science",
+    "interview-prep",
+    "vitest"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.7",
+    "vitest": "^4.1.7"
+  }
+}
